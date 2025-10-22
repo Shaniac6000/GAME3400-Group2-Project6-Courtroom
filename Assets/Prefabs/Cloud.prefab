@@ -10,43 +10,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalScale.x
-      value: 83.826
+      value: 41.576973
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalScale.y
-      value: 83.826
+      value: 41.57698
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalScale.z
-      value: 83.826
+      value: 41.576973
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.753366
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5941594
+      value: 0.3473423
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.517683
+      value: -2.0815806
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7944902031521932502, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ef8834245d32cc4cabbe777d0a7adbf, type: 2}
     - target: {fileID: 919132149155446097, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
       propertyPath: m_Name
       value: Cloud
@@ -76,5 +80,34 @@ PrefabInstance:
     - {fileID: -3957782524123411102, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
     - {fileID: -8513424388201257645, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4082569029195895759}
   m_SourcePrefab: {fileID: 100100000, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
+--- !u!1 &709835455110156645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37009663c6cb5b74cb5be820bd0b6640, type: 3}
+  m_PrefabInstance: {fileID: 367252568945765428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4082569029195895759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709835455110156645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.008425121, y: 0.0050000004, z: 0.0050000004}
+  m_Center: {x: 0.0017125458, y: 0, z: 0}
